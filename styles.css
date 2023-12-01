@@ -1,14 +1,14 @@
 
-/* Your CSS Code here. */
-#holder>div{
+
+
+.holder>div{
+	flex: 0 0 calc(30% - 10px);
+      margin-bottom: 10px;
+	background-color: blue;
 	width: 100px;
 	height: 100px;
-	background-color: blue;
-	margin-bottom: 30px;
-	font-size: 30px;
-	text-align: center;
 }
-#holder{
+.holder{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
